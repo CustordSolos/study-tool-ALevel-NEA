@@ -1,0 +1,26 @@
+{
+	"Trees" : [
+        {
+			"text" : "Trees are hierarchical data structures composed of nodes connected by edges. They're a fundamental concept in computer science and are used to represent hierarchical relationships between data. A tree consists of a root node, branches, and leaves. The root node is the topmost node in the tree, and it has child nodes connected to it. Each child node may have its own child nodes, forming a hierarchy.",
+	 		"image_dir" : ""
+		},
+		{
+			"text" : "An overview of it's components:\nNodes: The individual elements in a tree are called nodes. Each node contains a piece of data and may have a reference (or references) to its child nodes.\nRoot: The topmost node in a tree is called the root node. It is the starting point for traversing the tree.\nParent and Child Nodes: Nodes in a tree are organized in parent-child relationships. A node that has child nodes is called a parent node, and the nodes directly connected to a parent node are its children.\nLeaf Nodes: Nodes that do not have any children are called leaf nodes or terminal nodes.\nDepth and Height: The depth of a node is the length of the path from the root to that node. The height of a node is the length of the longest path from that node to a leaf. The height of the tree is the height of the root node.",
+	 		"image_dir" : ""
+		}
+	],
+	"Binary Trees" : [
+		{
+			"text" : "A binary tree is a specific type of tree in which each node has at most two children, typically referred to as the left child and the right child.",
+	 		"image_dir" : "\\assets\\binary_tree.png"
+		},
+		{
+			"text" : "Binary trees are closely related to graphs, particularly rooted trees. In fact, a binary tree can be considered as a specific type of rooted tree, where each node has at most two children. Graphs are more general structures that can represent various types of relationships between objects, whereas trees impose a specific hierarchical structure with one root node and a parent-child relationship. Usages:\nBinary search trees (BSTs) are used for efficient searching, insertion, and deletion operations.\nExpression trees are used to represent mathematical expressions in a tree-like structure for evaluation.\nHuffman trees are used in data compression algorithms.",
+	 		"image_dir" : ""
+		},
+		{
+			"text" : "Implementations of binary trees:\nNode-based: Each node in the tree is represented by an object or struct containing data and references (pointers) to its left and right children.\nArray-based: A binary tree can be represented using an array, where the children of a node at index ii are located at indices 2i+1 (left child) and 2i+2 (right child).\nRecursive: Binary trees can be implemented recursively, where each subtree is itself a binary tree. This approach is commonly used for operations such as traversal and searching.",
+	 		"image_dir" : ""
+		}
+	]
+}

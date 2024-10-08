@@ -1,0 +1,50 @@
+{
+	"Stacks" : [
+        {
+			"text" : "In computer science, a stack is a fundamental data structure that follows the Last In, First Out (LIFO) principle. This means that the last item added to the stack is the first one to be removed.\nSimilar to a stack of plates or books, items are added and removed from the top of the stack. In programming, stacks are commonly used for tasks such as managing function calls, expression evaluation, and undo operations. Understanding stacks is essential for writing efficient and organized code, particularly in algorithms and software development.",
+	 		"image_dir" : ""
+		},
+		{
+			"text" : "Stack operations typically consist of:\nPush: Adds an element to the top of the stack.\nPop: Removes the top element from the stack.\nPeek or Top: Returns the top element of the stack without removing it.\nisEmpty: Checks if the stack is empty.\nisFull: Checks if the stack is full (in case of a fixed-size stack, if it has reached its maximum capacity).\nSize: Returns the number of elements currently in the stack.",
+	 		"image_dir" : ""
+		},
+		{
+			"text" : "An example of push/pop in stacks.",
+			"image_dir" : "\\assets\\stack_push_pop.png"
+		},
+		{
+			"text" : "An example of the top pointer in stacks (this changes dynamically to point at the top element).",
+			"image_dir" : "\\assets\\stack_top_pointer.png"
+		}
+	],
+	"Queues" : [
+		{
+			"text" : "A queue is a fundamental data structure, but unlike a stack which operates on the last in, first out (LIFO) principle, a queue operates on the first in, first out (FIFO) principle. Key operations are:\nEnqueue: Adding an item to the rear (end) of the queue.\nDequeue: Removing and returning the front (first) item from the queue.\nPeek or Front: Returning the front item of the queue without removing it.\nisEmpty: Checking if the queue is empty.\nisFull: Checking if the queue is full (in the case of a bounded queue).",
+	 		"image_dir" : ""
+		},
+		{
+			"text" : "An example of a queue data structure",
+	 		"image_dir" : "\\assets\\queue.png"
+		}
+	],
+	"Priority Queue" : [
+		{
+			"text" : "A priority queue is a type of queue where elements are assigned a priority and dequeued based on their priority level rather than the order in which they were added. Unlike a regular queue, where elements are typically processed in a first-in-first-out (FIFO) manner, a priority queue allows elements with higher priority to be dequeued before those with lower priority, regardless of the order in which they were added. Key operations are:\nEnqueue (Insertion): Adding an element to the priority queue with an associated priority.\nDequeue (Extraction): Removing and returning the element with the highest priority from the priority queue.\nPeek (Front): Returning the element with the highest priority without removing it from the priority queue.\nisEmpty: Checking if the priority queue is empty.",
+	 		"image_dir" : ""
+		},
+		{
+			"text" : "An example of a priority queue data structure",
+	 		"image_dir" : "\\assets\\priority_queue.png"
+		}
+	],
+	"Circular Queue" : [
+		{
+			"text" : "A circular queue, also known as a ring buffer or cyclic buffer, is a type of queue data structure that efficiently manages a fixed-size collection of items. Unlike a regular queue, where the rear pointer wraps around to the beginning of the underlying array once it reaches the end, a circular queue logically forms a circle, allowing elements to be added and removed from the front and rear of the queue without needing to shift elements in memory. Key operations are:\nEnqueue (Insertion): Adding an element to the rear of the circular queue.\nDequeue (Removal): Removing and returning the element from the front of the circular queue.\nisEmpty: Checking if the circular queue is empty.\nisFull: Checking if the circular queue is full.\nCircular queues find applications in scenarios where a fixed-size buffer is needed, such as in operating systems for managing input/output requests, in networking for managing packets in a bounded buffer, and in embedded systems for implementing data buffers with limited memory resources.",
+	 		"image_dir" : ""
+		},
+		{
+			"text" : "An example of a circular queue data structure",
+	 		"image_dir" : "\\assets\\circular_queue.png"
+		}
+	]
+}

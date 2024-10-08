@@ -1,0 +1,44 @@
+{
+	"Introduction to Graphs" : [
+        {
+			"text" : "Graphs are fundamental data structures in computer science that represent a collection of interconnected nodes (vertices) and edges. They are versatile tools for modeling relationships between objects and are used in various applications, including computer networking, social network analysis, route planning, and data representation.",
+	 		"image_dir" : "\\assets\\graph.png"
+		},
+		{
+			"text" : "An overview of what makes a graph:\nVertices (Nodes): Represent entities or objects. For example, in a social network, each person can be a vertex.\nEdges (Links): Define relationships between vertices. For example, in a social network, a friendship between two people can be represented by an edge.\nDirected vs. Undirected: In directed graphs (also called digraphs), edges have a direction, indicating a one-way relationship between vertices. In undirected graphs, edges have no direction, indicating a two-way relationship.",
+	 		"image_dir" : ""
+		}
+	],
+	"Uses of Graphs" : [
+		{
+			"text" : "Networks and Social Graphs: Modeling connections between users in social networks.\nRouting and Navigation: Finding the shortest path between locations in maps or networks.\nData Representation: Modeling dependencies between tasks, processes, or components.\nRecommendation Systems: Analyzing connections between users and items to provide recommendations.",
+	 		"image_dir" : ""
+		}
+	],
+	"Types of Graphs" : [
+		{
+			"text" : "Undirected Graphs: Graphs where edges have no direction. Relationships between vertices are symmetric.\nDirected Graphs (Digraphs): Graphs where edges have a direction. Relationships between vertices are asymmetric.\nWeighted Graphs: Graphs where edges have weights or costs associated with them, representing the cost of traversal between vertices.",
+	 		"image_dir" : ""
+		}
+	],
+	"Adjacency Matrix" : [
+		{
+			"text" : "An adjacency matrix is a two-dimensional array used to represent connections between vertices in a graph. It's a common way to represent graphs, particularly for small to medium-sized graphs, and it's suitable for both directed and undirected graphs.",
+	 		"image_dir" : "\\assets\\adjacency_matrix.png"
+		},
+		{
+			"text" : "Here's how an adjacency matrix works:\nThe rows and columns of the matrix represent vertices in the graph.\nEach cell of the matrix contains a value that represents the presence or absence of an edge between the corresponding pair of vertices.\nIf there is an edge between vertex i and vertex j, the cell in row i and column j (or row j and column i, in the case of undirected graphs) contains a non-zero value. The value can represent the weight of the edge in the case of weighted graphs.\nIf there is no edge between the vertices, the cell contains a zero.",
+	 		"image_dir" : ""
+		}
+	],
+	"Adjacency Matrix and Lists" : [
+		{
+			"text" : "Adjacency lists are a way to represent connections between vertices in a graph by storing a list of adjacent vertices for each vertex. This representation is particularly suitable for sparse graphs, where the number of edges is significantly smaller compared to the number of vertices. Adjacency lists are more memory-efficient than adjacency matrices for such graphs.",
+	 		"image_dir" : ""
+		},
+		{
+			"text" : "Adjacency lists are commonly used in graph algorithms and applications where memory efficiency is important, especially for sparse graphs. They are suitable for tasks such as traversing graphs, finding paths, and performing graph-based computations.\nDespite the simplicity of an adjacency matrix and ease of use for certain types of operations, they may become inefficient for very large graphs due to their space requirements, especially if the graph is sparse. In such cases, adjacency lists may be preferred.",
+	 		"image_dir" : "\\assets\\adjacency_list_vs_matrix.png"
+		}
+	]
+}
